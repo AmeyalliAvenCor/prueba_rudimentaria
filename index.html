@@ -1,0 +1,87 @@
+<html>
+  <head>
+      <title>Página web de gatitos</title>
+      <link href="style.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+        <!--Las siguientes etiquetas son para encabezados-->
+          <h1>Página de mascotas</h1>
+         <h2>Esta es una página de gatitos</h2>
+        <h3>Hecha por: Ameyalli Avendaño</h3>
+
+         <!--Agregar imagen desde internet-->
+          <img src="https://i.pinimg.com/736x/e1/bb/02/e1bb02c4f803344ab781d02976ffc102.jpg">
+
+          <br>
+
+         <!--agregar imagen desde la computadora-->
+          <img src="imagenes/paradiso-comercial.png">
+
+         <!---Listas ordenadas y deosrdenadas-->
+          <h3>Listas de gatitos</h3>
+          <p>3 cosas que los gatos <strong>aman</strong></p>
+
+         <!--Lista ordenada-->
+         <ol> <!--ordered list-->
+            <li>Dormir</li>
+            <li>Arañar</li>
+            <li>Espiar</li>
+
+         </ol>
+
+         <!--lista desordenada-->
+         <p>3 cosas que los gatos <strong>odian</strong></p>
+         <ul>
+            <li>Bañar</li>
+            <li>Que los abraces mucho</li>
+            <li>Ruido</li>
+         </ul>
+
+         <!--Crear enlaces externos-->
+
+         <p>Si quieres ver más fotos de gatitos <a href="https://www.google.com/search?q=fotos+de+gatitos&sxsrf=AJOqlzW_6cmyP4nTCZeNHxpEcU5o3Mk3-A:1675529003956&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjJyN34p_z8AhUoO0QIHWYsBlkQ_AUoAXoECAEQAw&biw=500&bih=711&dpr=2" target="_blank">da clic aquí</a></p>
+
+
+         <!--Formularios con botones de radio-->
+         <form>
+            <p>¿Tu gatito es cachorro o es adulto?</p>
+            <label>
+               <input id="Cachorro" type="radio" value="Cachorro" name="Cachorro-Adulto" checked> Cachorro 
+            </label>
+            <br>
+            <label>
+               <input id="Adulto" type="radio" value="Adulto" name="Cachorro-Adulto"> Adulto
+            </label>
+
+         </form>
+
+
+         <!--Formulario con casillas de verificación-->
+         <form>
+         <p>¿Cómo es el carácter de tu gato?</p>
+         <label>
+            <input id="perezoso" type="checkbox"
+            value="perezoso" name="personalidad" checked> Perezoso 
+         </label>
+         <br>
+         <label>
+            <input id="energico" type="checkbox"
+            value="energico" name="personalidad"> Enérgico 
+         </label>
+         <label>
+            <input id="jugueton" type="checkbox"
+            value="jugueton" name="personalidad"> Juguetón
+         </label>
+      </form>
+ 
+      <footer>
+         <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Technolochicas PRO</a></small></p>
+      </footer>
+   </body>
+</html>

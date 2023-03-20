@@ -1,0 +1,27 @@
+body{
+    color: #0094ff;
+    /*Ponerle color al fondo*/
+    background-color: #ccfff7;
+    font-family:'Noto Serif Display', serif;
+}
+
+h1{
+    color: #ff66dd;
+    font-size: 60px;
+}
+h3{
+    color:#ffaf88;
+}
+img{
+    width: 260px; /*Ancho*/
+    height: 300px;  /*Largo*/
+    padding: 20px; /*Separación entre cada imagen*/
+    margin: 20px; /*Margen*/
+}
+
+footer{
+    background-color:#ffff9a;
+    color: #ff66dd;
+    padding: 20px;
+
+}
