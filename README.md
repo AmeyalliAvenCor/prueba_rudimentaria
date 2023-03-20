@@ -22,4 +22,4 @@ En este proyecto que pareciera no tener sentido por si solo encontré una explic
 Aprender a utilizar las etiquetas estándar de HTML5 y los estilos de CSS3.
 
 ## 4. Link a Demo
-Aquí puedes visualizar mi proyecto terminado: [Prueba rudimentaria](#)
+Aquí puedes visualizar mi proyecto terminado: [Prueba rudimentaria](https://github.com/AmeyalliAvenCor/prueba_rudimentaria)
