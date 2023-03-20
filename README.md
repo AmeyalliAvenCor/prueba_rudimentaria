@@ -8,7 +8,7 @@ Esta es una página web rudimentaria que se hizo como ejercicio para conocer las
 * [3. Objetivo del proyecto](#)
 * [4. Link a demo](#)
 
-**
+****
 
 ## 1. Intro
 
